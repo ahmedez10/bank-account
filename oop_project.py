@@ -1,0 +1,13 @@
+from bank_accounts import  *
+ahmed = bankAccount(122, "ahmed")
+malak = bankAccount(2000, "malak")
+ahmed.getbalance()
+malak.getbalance()
+ahmed.deposit(500)
+ahmed.withdraw(1999)
+malak.transfer(3000,ahmed)
+jim=interestrewardsacct(1000, "jim")
+jim.getbalance()
+jim.deposit(100)
+jim.transfer(100,ahmed)
+bero=savingacct(1000,"beroo")
